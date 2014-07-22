@@ -64,7 +64,7 @@ public class Preferences extends PreferenceActivity {
 		rootView.addView(preferenceView);
 		
 		// Create the adView
-		AdView adView2 = new AdView(this, AdSize.BANNER, "a14f828675b41d3");
+		AdView adView2 = new AdView(this, AdSize.BANNER, "**************");
 
 		// Initiate a generic request to load it with an ad
 		adView2.loadAd(new AdRequest());
