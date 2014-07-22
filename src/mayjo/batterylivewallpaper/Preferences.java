@@ -41,7 +41,7 @@ public class Preferences extends PreferenceActivity {
 		rootView.setOrientation(LinearLayout.VERTICAL);
 		
 		// Create the adView
-		adView = new AdView(this, AdSize.BANNER, "a14f828675b41d3");
+		adView = new AdView(this, AdSize.BANNER, "**************");
 
 		// Initiate a generic request to load it with an ad
 		adView.loadAd(new AdRequest());
