@@ -127,7 +127,6 @@ public class MyWallpaperService extends WallpaperService {
 			handler.removeCallbacks(drawRunner);
 			if (visible) {
 				//Sets delay
-				//SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(MyWallpaperService.this);
 				int size = prefs.getInt("interval", 100);
 				size = (size + 5) * 40;
 				
